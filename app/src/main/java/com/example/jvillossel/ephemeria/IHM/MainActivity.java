@@ -1,4 +1,4 @@
-package com.example.jvillossel.ephemeria;
+package com.example.jvillossel.ephemeria.IHM;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.example.jvillossel.ephemeria.R;
 import com.facebook.CallbackManager;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
@@ -28,11 +29,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private CallbackManager callbackManager;
     private LoginButton button_connexion_facebook;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         button_connexion_google = findViewById(R.id.button_connexion_google);
         button_connexion_facebook = (LoginButton) findViewById(R.id.login_button);
