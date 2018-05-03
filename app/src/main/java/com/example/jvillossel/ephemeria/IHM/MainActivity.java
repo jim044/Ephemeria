@@ -28,17 +28,17 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     private GoogleApiClient mGoogleApiClient;
     private CallbackManager callbackManager;
     private LoginButton button_connexion_facebook;
+    private Button connexion_facebook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         button_connexion_google = findViewById(R.id.button_connexion_google);
         button_connexion_facebook = (LoginButton) findViewById(R.id.login_button);
         button_connexion_facebook.setReadPermissions("email");
+
 
         // Connexion Google
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
