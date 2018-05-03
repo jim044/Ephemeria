@@ -7,7 +7,6 @@
     tools:context=".IHM.MainActivity">
 
 
-
     <com.facebook.login.widget.LoginButton
         xmlns:facebook="http://schemas.android.com/apk/res-auto"
         facebook:com_facebook_login_text="Connexion Facebook"
@@ -56,12 +55,11 @@
         android:id="@+id/editText_email"
         android:layout_width="291dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="400dp"
+        android:layout_marginBottom="336dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
@@ -69,16 +67,55 @@
         android:id="@+id/editText_mot_de_passe"
         android:layout_width="291dp"
         android:layout_height="55dp"
-        android:layout_marginBottom="320dp"
+        android:layout_marginBottom="260dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Mot de passe"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="398dp"
+        android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button_connexion_simple"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/borders_button_email"
+        android:text="Connexion par email"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button_inscription"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/borders_button_inscription"
+        android:text="Inscription"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button_mdp_oublie"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:text="Mot de passe oublié"
+        android:textColor="@android:color/white"
+        android:background="@drawable/borders_button_mdp_oublie"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
