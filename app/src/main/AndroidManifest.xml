@@ -12,12 +12,12 @@
 
     <application
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/partyfun"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme.NoActionBar"
-        android:hardwareAccelerated="false">
+        android:theme="@style/AppTheme.NoActionBar">
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
@@ -44,9 +44,7 @@
             android:authorities="com.facebook.app.FacebookContentProvider1234"
             android:exported="true" />
 
-        <activity android:name=".IHM.MainActivity">
-
-        </activity>
+        <activity android:name=".IHM.MainActivity" />
         <activity android:name=".IHM.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -54,6 +52,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".IHM.Inscription"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460724555692",
+    "firebase_url": "https://ephemeria-202407.firebaseio.com",
+    "project_id": "ephemeria-202407",
+    "storage_bucket": "ephemeria-202407.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460724555692:android:5c7a5ff3110efbf7",
+        "android_client_info": {
+          "package_name": "com.example.jvillossel.ephemeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460724555692-9kbqg38d3kj6lhbt5n93gvfhcstl3g9p.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "460724555692-2brk6b4s5hhj7e479gstevmbnil69s11.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jvillossel.ephemeria",
+            "certificate_hash": "cf0ec3165776c473d1d0b7816225c47f754de7d2"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6uYiYhWoTfeEPiabFBHaeECFUut8IVb8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460724555692-9kbqg38d3kj6lhbt5n93gvfhcstl3g9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
